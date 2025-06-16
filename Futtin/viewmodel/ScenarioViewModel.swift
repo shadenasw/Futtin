@@ -17,7 +17,7 @@ class ScenarioViewModel: ObservableObject {
                                feedback: "يدعم الدفاعية يغلق باب التطوير", feedbackType: .incorrect),
                 ScenarioBranch(userOption: "يمكن طريقته كانت قاسية، بس فيها فرصة للتطور.", narratorAudio: nil,
                                feedback: " يُظهر توازن بين الاحتواء والتوجيه", feedbackType: .correct),
-                ScenarioBranch(userOption: "من الطبيعي ان نمر بهذه العقبات دائما، لذلك تقبلها", narratorAudio: nil,
+                ScenarioBranch(userOption: "من الطبيعي ان نمر بهذه العقبات دائما، لذلك تقبلها.", narratorAudio: nil,
                                feedback: "يطبع النقد الجارح كشيء طبيعي.", feedbackType: .neutral)
             ]
             ),

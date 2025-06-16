@@ -25,7 +25,7 @@ struct ListeningLevelView: View {
 
     var body: some View {
         ZStack {
-            Color.black.ignoresSafeArea()
+         Color("Background").ignoresSafeArea()
                 .navigationBarBackButtonHidden(true)
             VStack(spacing: 30) {
                 HStack {
